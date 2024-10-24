@@ -1,0 +1,67 @@
+/* styles/ForecastSummary.css */
+.forecast-summaries-container {
+  background-color: #f3f4f6;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.forecast-summaries-container h4 {
+  font-size: 1.75rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.summary-card {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.summary-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.summary-card h5 {
+  font-size: 1.2rem;
+  color: #007BFF; /* Bootstrap primary color */
+  margin: 0 0 10px;
+}
+
+.summary-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+  margin: 5px 0;
+}
+
+.summary-card strong {
+  color: #333;
+}
+
+.summary-card svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .forecast-summaries-container {
+    padding: 15px;
+  }
+
+  .summary-card {
+    padding: 10px;
+  }
+
+  .forecast-summaries-container h4 {
+    font-size: 1.5rem;
+  }
+}
