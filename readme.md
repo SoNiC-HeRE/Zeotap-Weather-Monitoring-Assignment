@@ -79,8 +79,15 @@ The system includes comprehensive test cases to ensure:
 2. Correct data retrieval and parsing.
 3. Proper triggering of alerts based on defined thresholds. 
 
-For api testing you can use the following routes ( Postman recommended):
+For api testing you can use the following routes ( Postman recommended ):
 1. `http://localhost:5002/api/daily-summaries`
 2. `http://localhost:5002/api/forecast-summaries`
 3. `http://localhost:5002/weather-data`
 4. `http://localhost:5002/api/alerts`
+
+### Working
+
+
+https://github.com/user-attachments/assets/0697a490-2670-4ee9-be2c-444ffaf36040
+
+
